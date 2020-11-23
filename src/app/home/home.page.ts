@@ -14,7 +14,7 @@ export class HomePage {
 
   getUrl() {
     console.log("Start");
-    var url ='https://jsonplaceholder.typicode.com/todos/1'
+    var url ='https://appeltaxi.fr/'
       this.http.get(url, {}, {}).then(response=> {
         console.log(response.status);
         console.log(JSON.parse(response.data)); // JSON data returned by server
