@@ -1,4 +1,3 @@
 # BoostViteClient
 Pour lancer l'application :
-npm install
-ionic serve
+npm install & ionic serve
